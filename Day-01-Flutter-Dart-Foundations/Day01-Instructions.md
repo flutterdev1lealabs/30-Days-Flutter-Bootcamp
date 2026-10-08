@@ -1,4 +1,4 @@
-# 3. Step-by-Step Explanation to Complete the Task
+# Step-by-Step Explanation to Complete the Task
 
 ### Step 1 — Create the Flutter Project
 
@@ -10,7 +10,7 @@ day1_flutter_profile
 
 Open the project in your preferred IDE.
 
-The students should identify:
+You should identify:
 
 ```text
 day1_flutter_profile/
@@ -35,7 +35,7 @@ lib/main.dart
 
 ### Step 2 — Open `main.dart`
 
-Students should understand that this is where their Flutter application starts.
+You should understand that this is where their Flutter application starts.
 
 The basic structure should look similar to:
 
@@ -85,7 +85,6 @@ List<String> technologies = [
 ];
 ```
 
-Explain what each one represents.
 
 For example:
 
@@ -124,7 +123,7 @@ stores multiple strings.
 
 ### Step 4 — Create a Simple Function
 
-Ask students to create a function that returns a short introduction.
+Create a function that returns a short introduction.
 
 For example:
 
@@ -134,9 +133,7 @@ String getIntroduction() {
 }
 ```
 
-Explain that a function is a reusable block of code.
-
-Also explain:
+Function is a reusable block of code.
 
 ```dart
 $name
@@ -148,7 +145,7 @@ as Dart string interpolation.
 
 ### Step 5 — Use the Variables in the Flutter Application
 
-Students should use their variables in the application instead of writing everything directly as hard-coded text.
+You should use variables in the application instead of writing everything directly as hard-coded text.
 
 For example:
 
@@ -172,7 +169,7 @@ Text(
 )
 ```
 
-They can also display their technologies.
+You can also display their technologies.
 
 At this stage, the UI can remain extremely simple.
 
@@ -182,7 +179,7 @@ At this stage, the UI can remain extremely simple.
 
 ### Step 6 — Add Comments
 
-Students must add comments explaining important parts.
+Always and please add comments explaining important parts.
 
 For example:
 
@@ -198,7 +195,7 @@ and:
 runApp(
 ```
 
-The comments should be written by the students themselves so that you can check whether they understand the code.
+The comments should be written by the yourself so that you can check whether they understand the code.
 
 ---
 
@@ -210,11 +207,11 @@ Start the emulator and run:
 flutter run
 ```
 
-Students should verify that their profile information appears correctly.
+You verify that your profile information appears correctly.
 
-Then make one small change—for example, change their name—and run the application again.
+Then make one small change—for example, change the name—and run the application again.
 
-This demonstrates the basic development cycle:
+This the basic development cycle:
 
 ```text
 Write Code
@@ -232,7 +229,7 @@ Run Again
 
 ### Step 8 — Create `README.md`
 
-Students should create a simple README containing:
+Everyone should create a simple README containing:
 
 ```text
 # Day 1 Flutter Profile
@@ -256,7 +253,7 @@ of my Flutter development learning.
 - GitHub
 ```
 
-They should add their own information rather than simply copying the example.
+You should add your own information rather than simply copying the example.
 
 ---
 
@@ -287,7 +284,7 @@ git commit -m "Day 1: Create Flutter developer profile"
 Create a GitHub repository named:
 
 ```text
-day1_flutter_profile
+30-Days-Daily-Task
 ```
 
 Then connect the local project to GitHub and push it.
@@ -295,15 +292,17 @@ Then connect the local project to GitHub and push it.
 The final repository should contain:
 
 ```text
-day1_flutter_profile
+30-Days-Daily-Task
 │
-├── lib/
-│   └── main.dart
-├── README.md
-├── pubspec.yaml
-├── android/
-├── ios/
-└── ...
+└──day1_flutter_profile
+   │
+   ├── lib/
+   │   └── main.dart
+   ├── README.md
+   ├── pubspec.yaml
+   ├── android/
+   ├── ios/
+   └── ...
 ```
 
 ---
@@ -314,7 +313,7 @@ Students submit:
 
 **GitHub Repository Link**
 
-They should also be able to explain these questions verbally:
+Please check you would be able to explain these questions verbally after today's session and task:
 
 1. What is Dart?
 2. What is Flutter?
@@ -329,6 +328,5 @@ They should also be able to explain these questions verbally:
 11. What is a `List`?
 12. What is a function?
 
-This gives you a quick way to check whether they actually understood the task rather than simply copied code.
 
 ---
